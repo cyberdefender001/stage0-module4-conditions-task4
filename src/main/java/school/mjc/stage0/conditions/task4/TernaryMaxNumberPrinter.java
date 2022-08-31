@@ -4,7 +4,7 @@ public class TernaryMaxNumberPrinter {
     public void printGreatest(int first, int second, int third) {
         
         int max1 = first >= second ?
-            first;
+            first:
             second;
         int max = max1 >= third ?
             max1:
