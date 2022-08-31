@@ -1,7 +1,7 @@
 package school.mjc.stage0.conditions.task4;
 
 public class TernaryMaxNumberPrinter {
-    public static void printGreatest(int first, int second, int third) {
+    public void printGreatest(int first, int second, int third) {
         int max = 0;
         int max1 = 0;
         first > second ?
